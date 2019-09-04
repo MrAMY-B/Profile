@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 28, 2019, 1:11:17 AM
+    Author     : AMY
+
+width: 100%; 
+*/
+::-webkit-scrollbar {
+display: none;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+   margin: 0;
+   padding: 0;
+   background-color:whitesmoke;
+}
+#home{
+   background-image: url(../images/main1.png);
+   /*background-repeat:no-repeat;*/
+    
+   /*background-size: 100%;*/
+}
+#aboutme, #projects, #development, #blog, #pages, #contactUs {
+    padding-top:50px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    
+    
+}
+.amy{
+   
+}
+th{
+    color:white;
+    background-color:#17a2b8; 
+}
+.crcl{
+    
+    height:90px;
+    width:90px;
+    background-color:#17a2b8;
+    align-items:center;
+}
+#icon1{
+    color:white;
+    padding:15px 0 0 6px;
+}
+#icon2{
+    color:white;
+    padding:13px 0 0 5px;
+}
+#icon3{
+    color:white;
+    padding:13px 0 0 24px;
+}
+#icon4{
+    color:white;
+    padding:13px 0 0 12px;
+}
+.project{
+    background-color:#f0f0f0;
+}
+.html5css3{
+    background-image: url(html5css3.png);
+}
+#box {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    background-color:#f0f0f0;
+  }
+  
+ #linkedIn{
+      background-color: #17a2b8;
+      color:white;
+      border-radius:5px;
+      text-decoration: none;
+      font-weight:bolder;
+      padding:0 4px 0 4px;
+  }
+  #facebook{
+      background-color: #2851A3;
+      color:white;
+      padding:0 3px 0 3px;
+      border-radius:5px;
+      text-decoration: none;
+      font-weight:bolder;
+      padding:0 4px 0 10px;
+  }
+  #gmail{
+      background-color: #ff3333;
+      color:white;
+      padding:0 1px 0 1px;
+      border-radius:5px;
+      text-decoration: none;
+      font-weight:bolder;
+      
+  }

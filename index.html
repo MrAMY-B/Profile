@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>MrAMY</title>
+        <link rel = "Website icon" type = "image/png" href = "photos/siteLogo.png">
+             
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+            <script src="https://unpkg.com/scrollreveal"></script>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50" >
+      
+       
+        <!-- HOME PAGE-->
+        <section id="home" class="pt-5">
+                        
+            <div class="row container-fluid  justify-content-center pt-5">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <div class="row justify-content-center">
+                        <figure>
+                            <img class="col" src="images/siteLogo.png" alt="Site Logo" id="homeLogo">
+                            <figcaption><h3 class="text-light text-center">Hello There Welcome here</h3></figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+                <div class="row justify-content-center" id="homeButton">
+                        <a href="#aboutme" class="btn btn-outline-light">View My Profile <span class="fa fa-arrow-down"></span></a>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+    <!--  NAVIGATION BAR  -->
+    <header class="sticky-top">
+        <div id="navbar" >     
+          <nav class="navbar  navbar-expand-lg navbar-dark border-bottom bg-info shadow-lg">
+                <img src="images/siteLogo.png" alt="Company Logo" class="navbar-brand ml-4" width="35px" draggable="none">
+            
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#myMenu"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse mr-5  " id="myMenu">
+                    <ul class="navbar-nav ml-auto">
+                        <li><a class="nav-link  mx-3" href="#home">HOME</a></li>
+                        <li><a class="nav-link  mx-3" href="#aboutme">ABOUT ME</a></li>
+                        <li><a class="nav-link mx-3" href="#projects">PROJECTS</a></li>
+                        <li><a class="nav-link mx-3" href="#development">DEVELOPMENT</a></li>
+                        <li><a class="nav-link  mx-3" href="#contactUs">CONTACT US</a></li>
+                    </ul>
+                </div>
+          </nav>
+        </div>
+    </header>  
+       
+    <section id="aboutme"  class="container pt-5 text-dark ">
+        <h2 class="text-center border-bottom pt-5" id="aboutMeText">ABOUT ME</h2>
+        <div class="row pt-5">
+            <div class="col-lg-6 text-center p-5" id="aboutmeLeft">
+                <img src="images/Amy.jpg" class="rounded mx-auto d-block " alt="Profile Pic" width="200px">
+                <div class="container pt-2 ">
+                    <h1>Who's he?</h1>
+                    <p>I am a Java web developer, I can create a best responsive website with the best user interface. 
+                        I have a passion for UI effect and a dynamic website with the best secure programming languages. 
+                        During the creation of the product, we test the application with multiple keywords to make you happy.  
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 p-5" id="aboutmeRight">
+                <table class="table">
+                    <thead><tr><th><h2>My Responsibilities</h2></th></tr></thead>
+                    <tbody>
+                        <tr><td>Build Server-side Logic and Architecture</td></tr>
+                        <tr><td>Ensure Cohesion between Front-end and Back-end Elements </td></tr>
+                        <tr><td>Optimize Server-side Code Speed</td></tr>
+                        <tr><td>Manage Back-end Data Storage and Handling</td></tr>
+                        <tr><td>Maintain Code Libraries and Documentation</td></tr>
+                        <tr><td>Test Application from Various Faces</td></tr>
+                        <tr><td></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="container-fluid py-5 ">
+            <div class="row ">
+                <div class="col-lg-3 col-sm-6 py-5 " id="crcl1">
+                    <div class=" row d-flex justify-content-center" >
+                        <div class="rounded-circle crcl"><i class="fa fa-fighter-jet fa-4x" aria-hidden="true" id="icon1"></i></div>
+                    </div>
+                    <div class=" d-flex row justify-content-center px-5 text-center ">
+                        <h2>Fast</h2>
+                        <P>My highest priority, Fast load time on any server</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6  py-5" id="crcl2">
+                    <div class="row d-flex justify-content-center">
+                        <div class="rounded-circle crcl "><i class="fa fa-handshake fa-4x" aria-hidden="true" id="icon2"></i></div>
+                    </div>
+                    <div class=" d-flex row justify-content-center px-5 text-center">
+                        <h2>User Friendly</h2>
+                        <P>My web-sites are user friendly, Because of great user interface.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 py-5" id="crcl3">
+                    <div class="row d-flex justify-content-center" >
+                        <div class="rounded-circle crcl "><i class="fa fa-mobile fa-4x" aria-hidden="true" id="icon3"></i></div>
+                    </div>
+                    <div class=" d-flex row justify-content-center px-5 text-center">
+                        <h2>Responsive</h2>
+                        <P>My layouts will work on types of devices, small ,medium or big.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 py-5" id="crcl4">
+                    <div class="container d-flex justify-content-center" >
+                        <div class="rounded-circle crcl "><i class="fa fa-server fa-4x" aria-hidden="true" id="icon4"></i></div>
+                    </div>
+                    <div class=" d-flex row justify-content-center px-5 text-center">
+                        <h2>Dynamic</h2>
+                        <P>My web-sites are dynamic,Gives user required response. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+            <!--  PROJECTS  -->
+    <section id="projects" class="container-fluid project">
+        <div class="container">
+            <h2 class="text-center my-4 border-bottom border-info">PROJECTS</h2>
+            <div class="row mt-5">
+                <div class="col-md-6 border-right" id="projectLeft">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="text-center my-4">Content Writer</h3>
+                                <div class="tab-content">
+                                    <div class="tab-pane container active" id="puneCity1"><img src="images/CW1.png" alt="Content Writer1" width="100%"></div>
+                                    <div class="tab-pane container fade" id="puneCity2"><img src="images/CW2.png" alt="Content Writer2"width="100%"></div>
+                                    <div class="tab-pane container fade" id="puneCity3"><img src="images/CW3.png" alt="Content Writer3" width="100%"></div>
+                                    <div class="tab-pane container fade" id="puneCity4"><img src="images/CW4.png" alt="Content Writer4" width="100%"></div>
+                                    <div class="tab-pane container fade" id="puneCity5"><img src="images/CW5.png" alt="Content Writer5" width="100%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-12">
+                            <div class="row nav  my-5" role="tablist">
+                                <div class="col nav-item"><a href="#puneCity1" data-toggle="tab" class="active"><img class="img-thumbnail" src="images/CW1.png" width="100%" ></a></div>
+                                <div class="col nav-item"><a href="#puneCity2" data-toggle="tab" ><img class="img-thumbnail" src="images/CW2.png" width="100%" ></a></div>
+                                <div class="col nav-item"><a href="#puneCity3" data-toggle="tab" ><img class="img-thumbnail" src="images/CW3.png" width="100%" ></a></div>
+                                <div class="col nav-item"><a href="#puneCity4" data-toggle="tab"><img class="img-thumbnail" src="images/CW4.png" width="100%" ></a></div>
+                                <div class="col nav-item"><a href="#puneCity5" data-toggle="tab"><img class="img-thumbnail" src="images/CW5.png" width="100%" ></a></div>
+                            </div>
+                        </div>
+                       </div> 
+                    </div>
+                <div class="col-md-6 border-left" id="projectRight">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="text-center my-4">Pune City</h3>
+                                <div class="tab-content">
+                                    <div class="tab-pane container active" id="contentWriter1"><img src="images/PC1.png" alt="Pune City1" width="100%"></div>
+                                    <div class="tab-pane container fade" id="contentWriter2"><img src="images/PC2.png" alt="Pune City2"width="100%"></div>
+                                    <div class="tab-pane container fade" id="contentWriter3"><img src="images/PC3.png" alt="Pune City3" width="100%"></div>
+                                    <div class="tab-pane container fade" id="contentWriter4"><img src="images/PC4.png" alt="Pune City4" width="100%"></div>
+                                    <div class="tab-pane container fade" id="contentWriter5"><img src="images/PC5.png" alt="Pune City5" width="100%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-12">
+                            <div class="row nav  my-5" role="tablist">
+                                <div class="col nav-item"><a href="#contentWriter1" data-toggle="tab" class="active"><img class="img-thumbnail" src="images/PC1.png" width="100%" ></a></div>
+                                <div class="col nav-item"><a href="#contentWriter2" data-toggle="tab" ><img class="img-thumbnail" src="images/PC2.png" width="100%" ></a></div>
+                                <div class="col nav-item"><a href="#contentWriter3" data-toggle="tab" ><img class="img-thumbnail" src="images/PC3.png" width="100%" ></a></div>
+                                <div class="col nav-item"><a href="#contentWriter4" data-toggle="tab"><img class="img-thumbnail" src="images/PC4.png" width="100%" ></a></div>
+                                <div class="col nav-item"><a href="#contentWriter5" data-toggle="tab"><img class="img-thumbnail" src="images/PC5.png" width="100%" ></a></div>
+                            </div>
+                        </div>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+    </section>
+        
+    <!-- Development-->
+    <section id="development" class="container-fluid bg-info pb-5">
+        <div class="p-3" id="developmentBox">
+            <h1 class=" text-center text-light mb-5">DEVELOPMENT</h1>
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-3" id="developmentLeft">
+                        <ul class="nav nav-tabs flex-column font-weight-bold border-bottom-0" role="tablist">
+                            <li class="nav-item py-2"><a class="nav-link border-bottom active" data-toggle="tab" href="#frontend">Front-End</a></li>
+                            <li class="nav-item py-2"><a class="nav-link border-bottom" data-toggle="tab" href="#backend">Back-End</a></li>
+                            <li class="nav-item py-2"><a class="nav-link border-bottom" data-toggle="tab" href="#testing">Testing</a></li>
+                            <li class="nav-item py-2"><a class="nav-link border-bottom" data-toggle="tab" href="#digitalmarketing">Digital Marketing</a></li>
+                            <li class="nav-item py-2"><a class="nav-link border-bottom" data-toggle="tab" href="#maintenance">Maintenance and Supports</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-9">
+                        <div class="tab-content">
+                            <div class="tab-pane container active" id="frontend">
+                                <div class="row" > 
+                                    <div class="col-md-8" id="developmentCenter">
+                                        <div class="container">
+                                            <h3>What is Front End</h3>
+                                            <p>A front-end developer is a type of computer programmer that codes and creates the visual front-end elements of a software, 
+                                                application or website. 
+                                                He or she creates computing components/features that 
+                                                are directly viewable and accessible by the end user or client.</p>
+                                            <h4>Front end technology we use</h4>
+                                            <h6>HTML5 </h6><br>
+                                            <h6>CSS3</h6><br>
+                                            <h6>JS</h6><br>
+                                            <h6>Jquery</h6><br>
+                                            <h6>Bootstrap</h6><br>
+                                        </div>
+                                    </div>
+                                  
+                                    <div class="col-md-4" id="developmentRight">
+                                        <div class="container">
+                                            <div class="card" >
+                                                <div class="card-header"><h4>Front-End Developer</h4></div>
+                                                <img class="card-img-top" src="images/card.png" alt="Card image" style="width:100%">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Amol Bharsakle</h4>
+                                                    <p class="card-text">Professional Front-End developer</p>
+                                                </div>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                               </div>
+                             </div>
+                            <div class="tab-pane container fade" id="backend">
+                                <div class="row"> 
+                                    <div class="col-md-8">
+                                        <div class="container">
+                                            <h3>What is Back End</h3>
+                                            <p>Back-end developers primarily develop and maintain the core functional logic and operations of a software application or information system. Typically, 
+                                                a back-end developer has expert programming skills in C++, 
+                                                C#, Java and other high-level programming languages.<br> The back-end has three parts to it: <strong>server, application, and database</strong>. In order to handle the back end of given applications, 
+                                                programmers or back end developers have to deal with back end technologies that includes languages like PHP, .NET and Java.</p>
+                                            <h4>Back-End technology we use</h4>
+                                            <h5>Java </h5><br>
+                                            <h5>Jsp</h5><br>
+                                            <h5>servlets</h5><br>
+                                            <h5>JDBC/ODBC</h5><br>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="container">
+                                            <div class="card">
+                                                <div class="card-header"><h4>Back-End Developer</h4></div>
+                                                <img class="card-img-top" src="images/card.png" alt="Card image" style="width:100%">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Amol Bharsakle</h4>
+                                                    <p class="card-text">Professional Backend developer in java technology</p>
+                                                </div>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                               </div>
+                            </div>
+                            <div class="tab-pane container fade" id="testing">
+                                <div class="row"> 
+                                    <div class="col-md-8">
+                                        <div class="container">
+                                            <h3>What is Web-testing</h3>
+                                            <p>Website testers are primarily responsible for testing and monitoring websites and web applications on multiple desktops, 
+                                                laptops, and mobile devices by applying quality-assurance methods.</p>
+                                            <h4>We Test application/wesite on every phases of its development</h4>
+                                            <h6>We test website during every page development</h6><br>
+                                            <h6>we test website when new module is added to it.</h6><br>
+                                            <h6>we test website on different size of devices.</h6><br>
+                                            <h6>When application passes every phases of testing we check all modules are working properly or not.</h5><br>
+                                            <h6>Then after we gives the application to the client</h6><br>
+                                        </div>
+                                    </div>
+                                  
+                                    <div class="col-md-4">
+                                        <div class="container">
+                                            <div class="card">
+                                                <div class="card-header"><h4>Tester</h4></div>
+                                                <img class="card-img-top" src="images/card.png" alt="Card image" style="width:100%">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Ravindra Shinde</h4>
+                                                    <p class="card-text">Expert in application testing.</p>
+                                                </div>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                               </div>
+                            </div>
+                            <div class="tab-pane container fade" id="digitalmarketing">
+                                <div class="row"> 
+                                    <div class="col-md-8">
+                                        <div class="container">
+                                            <h3>What is Digital Marketing</h3>
+                                            <p>Digital marketing is a way to promote brands and products online and through other digital channels. 
+                                                Most businesses have a specific audience they are trying to reach, 
+                                                and digital marketing aims to help businesses reach these target consumers through the internet and other digital avenues.</p>
+                                            <h4>What facilities our digital marketer provides</h4>
+                                            <h6>Search Engine Optimization.</h6><br>
+                                            <h6>Search Engine Optimization.</h6><br>
+                                            <h6>Social Media Management</h6><br>
+                                            <h6>Content Marketing.</h6><br>
+                                            <h6>Email Marketing</h6><br>
+                                            <h6>Conversion Rate Optimization</h6><br>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="container">
+                                            <div class="card">
+                                                <div class="card-header"><h4>Digital Marketer</h4></div>
+                                                <img class="card-img-top" src="images/card.png" alt="Card image" style="width:100%">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Praful mahajan</h4>
+                                                    <p class="card-text">Expert Digital marketer having 2+ years of experience. SEO specialist</p>
+                                                </div>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                               </div>
+                            </div>
+                            <div class="tab-pane container fade" id="maintenance">
+                                <div class="row"> 
+                                    <div class="col-md-8">
+                                        <div class="container">
+                                            <h3>Maintenance</h3>
+                                            <p>A website maintenance plan is an ongoing premium service to keep the website up-to-date. 
+                                                This usually includes the website's WordPress core, plugins, and themes. Plans can also include other services. 
+                                                Many maintenance plans include backups and site monitoring.</p><br>
+                                            <p>The web maintenance services we provide include adding, 
+                                                editing or modifying the content and graphics, sending newsletters, redesign web pages, etc. 
+                                                Website maintenance services do not include a complete redesign of the website. That would be charged extra</p>
+                                            <h4>Maintenance facilities we provides</h4>
+                                            <p>Website created by us will be maintain by us for 2 years for free.</p><br>
+                                            <h5>If you want to maintain your website we provide</h5><br>
+                                            <h6> Adding new modules</h6><br>
+                                            <h6>Editing</h6><br>
+                                            <h6>Modify content and graphics</h6><br>
+                                        </div>
+                                    </div>
+                                  
+                                    <div class="col-md-4">
+                                        <div class="container">
+                                            <div class="card">
+                                                <div class="card-header"><h4>Maintenance</h4></div>
+                                                <img class="card-img-top" src="images/card.png" alt="Card image" style="width:100%">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Amol Bharsakle</h4>
+                                                    <p class="card-text">Professional Front-End/backend developer</p>
+                                                </div>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-light">
+                <h3 class="text-center text-light my-4" id="haveAproject">Do You Have A Project To Assign ?</h3>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6 " id="haveAprojectForm">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Enter your name here" name="name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Enter your email here" name="email">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" placeholder="Contact number" name="contact">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" id="comment" placeholder="Message" name="message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                 <input class="btn btn-outline-light btn-lg form-control" id="submitButton" type="submit" placeholder="SUBMIT"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- CONTACT US-->
+    <section id="contactUs" class="bg-dark py-5">
+       
+        <div class="container-fluid">
+            <h2 class="text-light text-center p-3">CONTACT US</h2>
+            <h3 class="text-light text-center p-3">My Team</h3>
+            <div class="row">
+                <div class="col-md-2 col-sm-4" >
+                    <div class="card bg-dark text-light" id="teamCard1">
+                        <div class="card-body"><img class="rounded" src="images/card.png" width="100%" alt="Ravindra Shinde"></div>
+                        <div class="card-footer">
+                            <p class="card-title"><strong>Ravindra Shinde</strong></p>
+                            <p>Expert backend developer,</p><br>
+                            <a id="linkedIn" href="#">in</a>&nbsp;<a id="facebook" href="#">f</a>&nbsp;<a id="gmail" href="#">G+</a>&nbsp;
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="card bg-dark text-light" id="teamCard2">
+                        <div class="card-body"><img class="rounded" src="images/card.png" width="100%" alt="Manish Mendhekar"></div>
+                        <div class="card-footer">
+                            <p class="card-title"><strong>Manish Mendhekar</strong></p>
+                            <p>Expert backend developer.</p><br>
+                            <a id="linkedIn" href="#">in</a>&nbsp;<a id="facebook" href="#">f</a>&nbsp;<a id="gmail" href="#">G+</a>&nbsp;
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="card bg-dark text-light" id="teamCard3">
+                        <div class="card-body"><img class="rounded" src="images/card.png" width="100%" alt="Aakash Satpute"></div>
+                        <div class="card-footer">
+                            <p class="card-title"><strong>Aakash Satpute</strong></p>
+                            <p>Expert in front-end and backend development.</p>
+                            <a id="linkedIn" href="#">in</a>&nbsp;<a id="facebook" href="#">f</a>&nbsp;<a id="gmail" href="#">G+</a>&nbsp;
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="card bg-dark text-light" id="teamCard4">
+                        <div class="card-body"><img class="rounded" src="images/card.png" width="100%" alt="Praful Mahajan"></div>
+                        <div class="card-footer">
+                            <p class="card-title"><strong>Praful Mahajan</strong></p>
+                            <p>Expert in Digital Marketing.</p><br>
+                            <a id="linkedIn" href="#">in</a>&nbsp;<a id="facebook" href="#">f</a>&nbsp;<a id="gmail" href="#">G+</a>&nbsp;
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="card bg-dark text-light" id="teamCard5">
+                        <div class="card-body"><img class="rounded" src="images/card.png" width="100%" alt="Harshal Choudhary"></div>
+                        <div class="card-footer">
+                            <p class="card-title"><strong>Harshal Choudhary</strong></p>
+                            <p>Android/ios Developer</p><br>
+                            <a id="linkedIn" href="#">in</a>&nbsp;<a id="facebook" href="#">f</a>&nbsp;<a id="gmail" href="#">G+</a>&nbsp;
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="card bg-dark text-light" id="teamCard6">
+                        <div class="card-body"><img class="rounded" src="images/card.png" width="100%" alt="Anurag Thakur"></div>
+                        <div class="card-footer">
+                            <p class="card-title"><strong>Anurag Thakur</strong></p>
+                            <p>Expert Software Testing Engineer.</p><br>
+                            <a id="linkedIn" href="#">in</a>&nbsp;<a id="facebook" href="#">f</a>&nbsp;<a id="gmail" href="#">G+</a>&nbsp;
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <footer style="background-color:#272c31;">
+        <div class="d-flex justify-content-center py-5">
+            <div class="p-3"><a class="btn btn-outline-light" href="https://www.google.com/amolbharsakle1?" target="_blank"><img src="images/gil.png" alt="Gil" width="30px"></a></div>
+            <div class="p-3"><a class="btn btn-outline-light" href="https://www.facebook.com/amol.bharsakle1?" target="_blank"><img src="images/fok.png" alt="fok" width="30px"></a></div>
+            <div class="p-3"><a class="btn btn-outline-light" href="https://www.linkedin.com/in/amol-bharsakle-531a42187" target="_blank"><img src="images/lin.png" alt="lin" width="30px"></a></div>
+            <div class="p-3"><a class="btn btn-outline-light rounded rounded-circle" href="#home"><i class="fa fa-angle-double-up" aria-hidden="true" ></i></a></div>
+        </div>
+        <div class="text-center text-muted"><small>AMOL BHARSAKLE &copy;2019</small></div>
+       
+    </footer>
+    
+    
+  
+        
+        
+      
+        <script>
+        function autoResizeDiv()
+        {
+            document.getElementById('home').style.height = window.innerHeight +'px';
+        }
+        window.onresize = autoResizeDiv;
+        autoResizeDiv();
+        </script>
+        <script>
+	window.sr =ScrollReveal();
+        sr.reveal('#homeLogo',{duration:1500}),
+	sr.reveal('#navbar',{duration:2000, origin:'top', distance:'200px'}),
+        sr.reveal('#projectRight',{duration:1500,origin:'right',distance:'200px'}),
+        sr.reveal('#homeButton',{duration:1500,origin:'bottom',distance:'80px'}),
+        sr.reveal('#aboutMeText',{duration:3000,origin:'bottom'}),
+        sr.reveal('#aboutmeLeft',{duration:1500,origin:'left',distance:'200px'}),
+        sr.reveal('#aboutmeRight',{duration:1500,origin:'right',distance:'200px'}),
+        sr.reveal('#projectLeft',{duration:1500,origin:'left',distance:'200px'}),
+        sr.reveal('#crcl1',{duration:500,origin:'bottom',distance:'200px'}),
+        sr.reveal('#crcl2',{duration:500,delay:300,origin:'bottom',distance:'200px'}),
+        sr.reveal('#crcl3',{duration:500,delay:600,origin:'bottom',distance:'200px'}),
+        sr.reveal('#crcl4',{duration:500,delay:900,origin:'bottom',distance:'200px'}),
+        sr.reveal('#developmentCenter',{duration:1500}),
+        sr.reveal('#developmentLeft',{duration:800,delay:1100,origin:'right',distance:'100px'}),
+        sr.reveal('#developmentRight',{duration:800,delay:1100,origin:'left',distance:'100px'}),
+        sr.reveal('#haveAproject',{duration:800,origin:'right',distance:'200px'}),
+        sr.reveal('#haveAprojectForm',{duration:800,delay:800,origin:'left',distance:'300px'}),
+        sr.reveal('#submitButton',{duration:500,delay:1500,origin:'bottom',distance:'50px'}),
+        sr.reveal('#teamCard1',{duration:500,origin:'bottom',distance:'200px'}),
+        sr.reveal('#teamCard2',{duration:500,delay:300,origin:'bottom',distance:'200px'}),
+        sr.reveal('#teamCard3',{duration:500,delay:600,origin:'bottom',distance:'200px'}),
+        sr.reveal('#teamCard4',{duration:500,delay:900,origin:'bottom',distance:'200px'}),
+        sr.reveal('#teamCard5',{duration:500,delay:1200,origin:'bottom',distance:'200px'}),
+        sr.reveal('#teamCard6',{duration:500,delay:1500,origin:'bottom',distance:'200px'});
+        </script>
+        
+        
+      
+    </body>
+</html>
