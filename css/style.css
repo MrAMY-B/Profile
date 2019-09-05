@@ -63,9 +63,7 @@ body{
     
    /*background-size: 100%;*/
 }
-#homeLogoDiv{
-    margin-top:30%;
-}
+
 #aboutme, #projects, #development, #blog, #pages, #contactUs {
     padding-top:50px;
 }
