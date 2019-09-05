@@ -75,8 +75,11 @@ h1,h2,h3,h4,h5,h6{
 .marg{
   margin:70px 0 70px 0;
 }
-.amy{
-   
+.margT{
+ margin-top:70px;   
+}
+.margB{
+    margin-bottom:70px;
 }
 th{
     color:white;
