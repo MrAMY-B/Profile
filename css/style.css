@@ -20,10 +20,27 @@ body{
    padding: 0;
    background-color:whitesmoke;
 }
-/* For mobile phones: */
+/* For mobile phones: 
 [class*="col-"] {
   width: 100%;
 }
+*/
+
+@media only screen and (max-width: 600px)
+{
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+
+    }
+     #homeLogoDiv{
+      margin-top:20%;
+    }
+    p{
+      font-size:30px;
+    }
+}
+
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
