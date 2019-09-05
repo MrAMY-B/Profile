@@ -81,6 +81,12 @@ h1,h2,h3,h4,h5,h6{
 .margB{
     margin-bottom:70px;
 }
+.padT{
+  padding-top:70px;  
+}
+.padB{
+  padding-bottom:70px;  
+}
 th{
     color:white;
     background-color:#17a2b8; 
